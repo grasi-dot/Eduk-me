@@ -1,2 +1,82 @@
+$navbar-default-bg: #120415;
 @import "bootstrap-sprockets";
-@import "bootstrap"
+@import "bootstrap";
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover  {
+  color: #bf3ee1;
+  text-decoration: none;
+}
+
+#image1{
+  max-width: 50%;
+  text-align: right;
+}
+
+.navbar-right {
+  padding-right: 40px; 
+  padding-top: 10px;   
+}
+
+.search-mentor {
+  color: white;
+  font-style: bold;
+}
+
+.search-mentor:hover {
+  color: #bf3ee1 !important;
+}
+
+.btn-login {
+  background: white;
+  border: none;
+  text-align: center;
+  color: #501e5d ;
+  margin-left: 50px;
+  &-outline-dark {
+    color: #000000;
+    border-color: #000000;
+    transition: none!important;
+  }
+}
+
+.btn-sign-in {
+  background:#501e5d;
+  border: none;
+  text-align: center;
+  color: white;
+  margin-left: 10px;
+  &-outline-dark {
+    color: #000000;
+    border-color: #000000;
+    transition: none!important;
+  }
+}
+
+.btn-sign-in:hover {
+  background-color:#501e5d !important;
+  color: white!important;
+}
+
+.btn-login:hover {
+  background-color: white !important;
+  color: #501e5d !important;
+}
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.item{
+  width: 40%;  
+}
+
